@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+    <head>  
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" type="text/css" href="form.css">
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            
+            <!--Header Row-->
+            <div class="row">
+                <h1 id="header">Time Entry</h1>
+            </div>
+            
+            <!--Input Information-->
+            
+            <div class="row">
+                <form class="form">
+                        <div class="col-md-6">
+                            <label for="text">Client Name/ Client number:</label>
+                            <input list="list" class="form-control" id="cname">
+                            <datalist>
+                                <option></option>
+                            </datalist>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <label for="text">Client Matter Number</label>
+                            <input list="list" class="form-control">
+                            <datalist>
+                                
+                            </datalist>
+                        </div>  
+                </form>
+            </div>
+            <div class="row">
+                <form class="form">
+                    <div class="col-md-6">
+                        <label for="text">Matter Number</label>
+                        <input list="list" class="form-control">
+                        <datalist>
+                            <option></option>
+                        </datalist>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <label for="text">Hours Logged</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <div class="col-md-8"></div>
+                <div class="col-md-4">
+                <div class="button-group">
+                    <button type="button" class="btn btn-primary">Cancel</button>
+                    <a href="email3.html"><button type="button" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-primary">Save For Later</button>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </body>
+    
+</html>
